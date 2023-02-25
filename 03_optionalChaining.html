@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+<p>こんにちは</p>
+<script>
+  const paragraphText =
+    document
+      .querySelector("p")
+      ?.innerHTML;
+  console.log(paragraphText);
+  // 結果: p要素がある場合は、p要素内のテキストを参照して「こんにちは」が出力される。
+  //      それ以外はundefinedになる（エラーにならない）。
+</script>
+</body>
+</html>

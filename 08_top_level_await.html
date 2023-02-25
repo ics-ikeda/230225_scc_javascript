@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+<script type="module">
+  const response = await fetch("example/data.json");
+  const fetchedData = await response.json();
+  const myText = fetchedData.myText;
+  console.log(myText);
+
+</script>
+</body>
+</html>
